@@ -1,0 +1,16 @@
+{
+ "namespace": "aws_schema_refistry.integrationtests",
+ "type" : "record",
+ "name" : "User",
+
+ "fields": [
+     {"name" : "name , "type":"string"},
+     {"name":"Age","type":"int"},
+     {"name":"Subject","type":"string"}
+
+ ]
+
+
+
+
+}

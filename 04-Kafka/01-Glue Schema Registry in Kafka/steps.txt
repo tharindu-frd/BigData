@@ -1,0 +1,16 @@
+(01) Create  main.py
+(02) Create consumerset.py
+
+
+## Start zookeeper
+C:/kafka-2.12-3.2.0/bin/windows/zookeeper-server-start.bat C:kafka_2.12-3.2.0/config/zookeeper.properties
+
+### start kafka server 
+C:/kafka_2.12-3.2.0/bin/windows/kafka-server-start.bat C:/kafka_2.12-3.2.0/config/server.properties 
+
+
+python main.py 
+python consumerset.py 
+
+
+### If we want to make any changes to the schema change the .avsc file and rerun main.py file again 
