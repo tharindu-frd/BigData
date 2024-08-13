@@ -1,0 +1,6 @@
+Flask
+selenium
+requests
+webdriver-manager
+pandas
+apache-airflow[amazon]
